@@ -1,5 +1,4 @@
 import React from 'react';
-import Block from './Block';
 
 const Color = (props)=>{
 
