@@ -3,13 +3,13 @@ import React from 'react';
 import Color from './Color';
 
 const Menu = (props) => { 
-    return (
-      <div className="colorOptions">
-          <Color color="red" handleClick={props.hc}/>
-          <Color color="yellow" handleClick={props.hc}/>
-          <Color color="orange" handleClick={props.hc}/>
-      </div>
-    );
+  return (
+    <div className="colorOptions">
+      <Color color="red" handleClick={props.createPosts}/>
+      <Color color="yellow" handleClick={props.createPosts}/>
+      <Color color="orange" handleClick={props.createPosts}/>
+    </div>
+  );
 }
 
 export default Menu;
